@@ -1,0 +1,35 @@
+{
+  "name": "fzkpreactisnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=production node app",
+    "dev": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "events": "^3.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^6.6.1",
+    "fs": "0.0.1-security",
+    "google-auth-library": "^6.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "loadash": "^1.0.0",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.4.13",
+    "nodemon": "^2.0.4",
+    "randomatic": "^3.1.1",
+    "twilio": "^3.50.0"
+  }
+}
